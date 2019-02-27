@@ -1,0 +1,23 @@
+
+404  GET /stoc at undefined: URL not found
+404  GET /stoc at undefined: URL not found
+404  GET /stoc at undefined: URL not found
+404  GET /stoc at undefined: URL not found
+404  GET /stoc at 02/27/19 14:00:54: URL not found
+500  GET /error at 02/27/19 14:16:34: Server error 500: Testing error route and response!
+404  POST /stock at 02/27/19 14:27:41: URL not found
+404  POST /stock at 02/27/19 14:27:50: URL not found
+404  POST /stock at 02/27/19 14:27:51: URL not found
+200  GET /stock at 02/27/19 14:53:06: Successful request
+500  GET /error at 02/27/19 14:53:48: Server error: Testing error route and response!
+404  GET /latest-stock/aapl at 02/27/19 15:10:58: URL not found
+404  GET /latest-stock/aapl at 02/27/19 15:11:29: URL not found
+404  GET /latest-stock/aapl at 02/27/19 16:41:34: URL not found
+404  GET /latest-stock/aapl at 02/27/19 16:42:09: URL not found
+200  GET /latest-stock/aapl at 02/27/19 17:45:39: Successful request
+200  GET /latest-stock/aapl at 02/27/19 17:58:23: Successful request
+200  GET /latest-stock/aapl at 02/27/19 17:59:28: Successful request
+200  GET /latest-stock/company at 02/27/19 18:00:00: Successful request
+404  GET /latest-stock/ at 02/27/19 18:00:04: URL not found
+200  GET /latest-stock/cristian at 02/27/19 18:00:14: Successful request
+200  GET /latest-stock/cristian/1234 at 02/27/19 18:00:36: Successful request
