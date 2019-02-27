@@ -1,11 +1,21 @@
 const { serverResponse } = require('../lib/responses');
+const Services = require('../lib/request');
 
-exports.getStockInformation = (req, res) => {
+exports.getStockInformation = async (req, res) => {
+    const [logo, news, price] = await Promise.all([
+        await Services.getCompanyLogo(req.params.symbol),
+        await Services.getCompanyNews(req.params.symbol),
+        await Services.getCompanyPrice(req.params.symbol)
+    ])
+
+    console.log(logo)
     serverResponse(req, res, {
         statusCode: 200,
         message: 'Successful request',
         data: {
-            params: req.params
+            logo: logo ? logo.url : null,
+            last_news: news ? news[0] : {},
+            last_stock_price: price ? price.latestPrice : null
         }
     })
 }

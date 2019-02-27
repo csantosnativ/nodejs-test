@@ -18,9 +18,6 @@ exports.setRoute = (url, handler_function, verb) => {
         });
     }
     else params = []
-    
-    console.log(params);
-    console.log(pattern_url);
     handlers[pattern_url] = handlerFactory.newHandler(handler_function, verb, params)
 }
 
