@@ -6,7 +6,13 @@ This repository contains a simple HTTP service (API) that takes a stock ticker s
 
 No libraries required.
 
-To run application: node server.js. Server listens at localhost:5000
+To run application: 
+
+```
+node server.js. 
+```
+
+Server listens at **localhost:5000**
 
 ### Prerequisites
 
