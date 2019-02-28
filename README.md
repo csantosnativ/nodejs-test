@@ -1,4 +1,4 @@
-# Project Title
+# Stock ticker symbol Node JS API
 
 This repository contains a simple HTTP service (API) that takes a stock ticker symbol and returns stock information about the company (last news, last stock price and logo's url). 
 
