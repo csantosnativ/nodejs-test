@@ -36,3 +36,13 @@
 200  GET /latest-stock/AAPL at 02/27/19 19:10:49: Successful request
 200  GET /latest-stock/AAPL at 02/27/19 19:14:28: Successful request
 200  GET /latest-stock/AAPL at 02/27/19 19:16:21: Successful request
+200  GET /latest-stock/AAPL at 02/28/19 22:49:18: Successful request
+200  GET /latest-stock/AAPL at 02/28/19 23:01:01: Successful request
+404  GET /latest-stock/ at 02/28/19 23:01:18: URL not found
+500  GET /error at 02/28/19 23:01:24: Server error: Testing error route and response!
+200  GET /latest-stock/appl at 02/28/19 23:01:36: Successful request
+200  GET /latest-stock/AAPL at 02/28/19 23:02:03: Successful request
+200  GET /latest-stock/AAPL at 02/28/19 23:04:08: Successful request
+200  GET /latest-stock/AAPL at 02/28/19 23:04:20: Successful request
+200  GET /latest-stock/AAPL at 02/28/19 23:05:39: Successful request
+200  GET /latest-stock/MSFT at 02/28/19 23:06:28: Successful request
