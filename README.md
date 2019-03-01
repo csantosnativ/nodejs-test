@@ -14,6 +14,11 @@ node server.js.
 
 Server listens at **localhost:5000**
 
+Endpoint's URL:
+```
+/latest-stock/{symbol}
+```
+
 ### Prerequisites
 
 Node v8.0+ (At the time of development of this code: Node v10.15)
